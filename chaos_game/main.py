@@ -16,6 +16,7 @@ from typing import List
 from subprocess import run
 # custom modules
 from toolchain.option_utils import usageMessage, checkListOverlap, verifyOption, getOptionVal, stripOptionVals
+from toolchain.plotting_utils import test
 # 3rd party
 try:
   from yaml import safe_load, YAMLError
@@ -47,7 +48,7 @@ def main():
     usageMessage()
     exit(0)
   else:
-    # WORK GOES HERE
+    test()
     exit(1)
 
 

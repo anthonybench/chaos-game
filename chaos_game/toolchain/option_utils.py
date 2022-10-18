@@ -20,7 +20,6 @@ Info:
 """)
 
 # Utility: Verify against all options
-# TODO - refactor
 def verifyOption(args: List[str], options: dict) -> bool:
   '''Takes list of user arg strings and options dictionary.
 Returns True if option flag exists and value matches required type, else False.'''
